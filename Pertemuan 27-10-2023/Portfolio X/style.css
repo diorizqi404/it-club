@@ -1,0 +1,41 @@
+/* MENGIMPOR FONT DARI GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #2892D7;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title img{
+    width: 50px;
+}
+.title h1{
+    color: #ffff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+.menu a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.menu a:hover{
+    background-color: #4b4b4b;
+    padding: 8px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
