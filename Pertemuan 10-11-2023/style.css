@@ -1,0 +1,102 @@
+/* MENGIMPOR FONT DARI GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #2892D7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title img{
+    width: 50px;
+}
+.title h1{
+    color: #ffff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+.menu a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.menu a:hover{
+    background-color: #4b4b4b;
+    padding: 8px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.profile-img img{
+    width: 200px;
+}
+
+#home, #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin: 6rem 0;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile h3{
+    color: #2892D7;
+    font-size: 22px;
+}
+
+.profile h1{
+    font-size: 40px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.profile h2{
+    font-size: 28px;
+    margin-bottom: 0.5rem;
+    background: -webkit-linear-gradient(90deg, #103783, #9bafd9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.skills img{
+    width: 60px;
+    margin: 1rem;
+}
+
+.about {
+    width: 40%;
+}
+
+.about h1{
+    font-weight: bold;
+    color: #2892D7;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
