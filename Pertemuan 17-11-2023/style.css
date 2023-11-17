@@ -1,0 +1,155 @@
+/* MENGIMPOR FONT DARI GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #2892D7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title img{
+    width: 50px;
+}
+.title h1{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+.menu a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.menu a:hover{
+    background-color: #4b4b4b;
+    padding: 8px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.profile-img img{
+    width: 300px;
+}
+
+#home, #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin: 6rem 0;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile h3{
+    color: #2892D7;
+    font-size: 22px;
+}
+
+.profile h1{
+    font-size: 40px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.profile h2{
+    font-size: 28px;
+    margin-bottom: 0.5rem;
+    background: -webkit-linear-gradient(90deg, #103783, #9bafd9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.skills img{
+    width: 60px;
+    margin: 1rem;
+}
+.about {
+    width: 40%;
+}
+.about h1{
+    font-weight: bold;
+    color: #2892D7;
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+.about p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#projects{
+    margin: 12rem 0;
+    text-align: center;
+}
+#projects h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #2892D7;
+    font-family: 'lato', sans-serif;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.card{
+    width: 400px;
+    text-align: start;
+    margin: 2rem;
+    background-color: #2892D7;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+.card img{
+    width: 400px;
+    border-radius: 1rem 1rem 0 0;
+}
+.card h2{
+    margin: 1rem;
+    color: #ffffff;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 1px;
+}
+.card p{
+    color: #ffffff;
+    margin: 1rem 0 3rem 1rem;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+}
+.card a{
+    margin-left: 1rem;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: 'lato', sans-serif;
+    background-color: #103783;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: ease 0.3s;
+}
+.card a:hover{
+    transform: scale(1.2);
+    background-color: #9bafd9;
+}
