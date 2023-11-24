@@ -22,7 +22,7 @@ Clone the project (or download .zip & extract)
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd recipe_app
 ```
 
 Get Packages
